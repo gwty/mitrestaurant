@@ -95,10 +95,10 @@
       height: 500px;
     }
     .carousel img {
-      position: absolute;
+      position:absolute;
       top: 0;
       left: 0;
-      min-width: 100%;
+      min-width: 100% ;
       height: 500px;
     }
 
@@ -284,24 +284,21 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="brand" href="#">MIT Restaurant</a>
+            <a class="brand" href="index.html">MIT Restaurant</a>
             <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
             <div class="nav-collapse collapse">
               <ul class="nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
                 <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="http://maps.google.co.in/maps?hl=en&gs_rn=12&gs_ri=psy-ab&pq=google+maps+madras+institute+of+technology&cp=43&gs_id=4v&xhr=t&q=madras+institute+of+technology&client=ubuntu&hs=0tD&channel=cs&gbv=2&bav=on.2,or.r_qf.&bvm=bv.46471029,d.bmk&biw=1598&bih=774&um=1&ie=UTF-8&sa=X&ei=txGSUYquJs3trQeO8YDYBQ&sqi=2&ved=0CAgQ_AUoAg">Our Location</a></li>
+                    <li><a href="quality.html">Quality Assurance</a></li>
                     <li class="divider"></li>
-                    <li class="nav-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
                   </ul>
                 </li>
               </ul>
@@ -318,35 +315,35 @@
     ================================================== -->
     <div id="myCarousel" class="carousel slide">
       <div class="carousel-inner">
-        <div class="item active">
+        <div class="item">
         
-          <img src="south_indian_food.jpg " alt=""/>
+                  <img src="south_indian_food.jpg " alt=""/>
           <div class="container">
             <div class="carousel-caption">
               <h1>Delicious Meals</h1>
-              <p class="lead">Crispy Dosas, at your doorstep</p>
-              <a class="btn btn-large btn-primary" href="#">Order Today</a>
+              <p class="lead">Hot, Crispy Dosa's , steaming Poori's, soft fluffly Idli's and more...</p>
+              <a class="btn btn-large btn-primary" href="order.html">Order Today</a>
             </div>
           </div>
         </div>
         <div class="item">
-          <img src="Egg Biryani.jpg" style="background-repeat: repeat;"  alt=""/>
+          <img src="fruit-juices.jpg" style="background-repeat: repeat;"  alt=""/>
           <div class="container">
             <div class="carousel-caption">
-              <h1>YOYO</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large btn-primary" href="#">Learn more</a>
+              <h1>Great Prices ! </h1>
+              <p class="lead">Tasty delights available at extremely reasonable prices... </p>
+              <a class="btn btn-large btn-primary" href="pricelist.html">Learn more</a>
             </div>
             </div>
           </div>
-        <div class="item">
-          <img src="black2.jpg" alt="">
+        <div class="item active">
+          <img src="Sev puri.jpg" alt="">
           <div class="container">
             <div class="carousel-caption">
               <h1>WELCOME TO MIT RESTAURANT </h1>
 .  
-              <p class="lead">>
-              <a class="btn btn-large btn-primary" href="#">Browse gallery</a>
+              <p class="lead">A place where students come  to eat to their heart's desire...</p>
+              <a class="btn btn-large btn-primary" href="gallery.html">Browse gallery</a>
             </div>
           </div>
         </div>
@@ -364,26 +361,44 @@
     <div class="container marketing">
 
       <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="span4">
-          <img class="img-circle" data-src="holder.js/140x140">
-          <h2>What's New</h2>
-          <p>Delicious Idly, Dosa, Vadai up for sale!</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div><!-- /.span4 -->
-        <div class="span4">
-          <img class="img-circle" data-src="holder.js/140x140">
-          <h2>Whats New ?</h2>
-          <p>Delicious Idly, Dosa, Vadai up for sale! </p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div><!-- /.span4 -->
-        <div class="span4">
-          <img class="img-circle" data-src="holder.js/140x140">
-          <h2>Price List </h2>
-          <p>To be announced </p>     
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div><!-- /.span4 -->
-      </div><!-- /.row -->
+        <div class="span12">
+                          
+          <div class="row-fluid">
+            <div class="span4">
+              <h2>What's New</h2>
+              <p>Pizza's and Chaats, now at MIT Restaurant!! </p>
+              <p><a class="btn" href="whatsnew.html">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="span4">
+              <h2>Price List</h2>
+              <p>Good food at great prices !</p>
+              <p><a class="btn" href="pricelist.html">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="span4">
+              <h2>Food Stock Viewer</h2>
+              <p>Check to see if your favorite items  are available today! </p>
+              <p><a class="btn" href="foodstockviewer.html">View details &raquo;</a></p>
+            </div><!--/span-->
+          </div><!--/row-->
+          <div class="row-fluid">
+            <div class="span4">
+              <h2>Review</h2>
+              <p>We strive to be the best. Help us by leaving a review.</p>
+              <p><a class="btn" href="review.html">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="span4">
+              <h2>Poll</h2>
+              <p>Tell us your favorite foods and drinks!</p>
+              <p><a class="btn" href="poll.html">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="span4">
+              <h2>Crowd Level Indicator</h2>
+              <p>Is it too crowded? Click here to find out! </p>
+              <p><a class="btn" href="crowdlevelindicator.html">View details &raquo;</a></p>
+            </div><!--/span-->
+          </div><!--/row-->
+        </div><!--/span-->
+      </div><!--/row-->
 
 
       <!-- START THE FEATURETTES -->
@@ -391,25 +406,26 @@
       <hr class="featurette-divider">
 
       <div class="featurette">
-        <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-chrome.png">
-        <h2 class="featurette-heading">First featurette headling. <span class="muted">It'll blow your mind.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <img class="featurette-image pull-right" src="delicious_pizza-t2.jpg">
+        <br>
+        <h2 class="featurette-heading">Come, experience.<span class="muted">It'll blow your mind.</span></h2>
+        <p class="lead">Experience the old world charm, transporting you to a bygone magical era...</p>
       </div>
 
       <hr class="featurette-divider">
 
       <div class="featurette">
-        <img class="featurette-image pull-left" src="../assets/img/examples/browser-icon-firefox.png">
-        <h2 class="featurette-heading">Oh yeah, it's that good. <span class="muted">See for yourself.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <img class="featurette-image pull-left" src="VeggieHakkaHD.jpg">
+        <h2 class="featurette-heading">Oh yeah, it's good. <span class="muted">See for yourself.</span></h2>
+        <p class="lead">  Working Hours: 7:30 a.m. to 7:30 p.m .</p>
       </div>
 
       <hr class="featurette-divider">
 
       <div class="featurette">
-        <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-safari.png">
-        <h2 class="featurette-heading">And lastly, this one. <span class="muted">Checkmate.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <img class="featurette-image pull-right" src="gulab.JPG">
+        <h2 class="featurette-heading">And lastly, this one. <span class="muted">Most importantly.</span></h2>
+        <p class="lead"> You wont leave disappointed.</p>
       </div>
 
       <hr class="featurette-divider">
@@ -420,7 +436,7 @@
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy; 2013 Eylene, Gowtham, Sanju, Srilaxmi&middot; <a href="index.html">Home</a> &middot; <a href="aboutus.html">About us</a></p>
       </footer>
 
     </div><!-- /.container -->
